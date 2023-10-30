@@ -1,0 +1,36 @@
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.buttons {
+    margin: 1em auto 1.3em 3em;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 5px;
+    position: relative;
+    overflow: visible;
+    &:after {
+        content: "";
+        display: block;
+        width: 42%;
+        height: 2px;
+        position: absolute;
+        background: black;
+        transition: all 0.1s linear;
+        margin-top: 5px;
+    }
+
+    &:disabled {
+        color: $neutral_color_4;
+    }
+
+    &:disabled:after {
+        background: $neutral_color_4;
+    }
+
+    &.hover:after,
+    &:hover:after {
+        width: 100%;
+    }
+}
