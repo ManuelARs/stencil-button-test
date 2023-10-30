@@ -1,6 +1,6 @@
 {
-  "name": "@ManuelARs/stencil-button-test",
-  "version": "0.0.2",
+  "name": "@manuelars/stencil-button-test",
+  "version": "0.0.3",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -12,7 +12,7 @@
   "unpkg": "dist/pruebas-stencil/pruebas-stencil.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "https://github.com/ManuelARs/stencil-button-test"
   },
   "files": [
     "dist/",
