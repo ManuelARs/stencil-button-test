@@ -1,0 +1,16 @@
+button {
+    background-color: transparent;
+    // border: 0;
+    cursor: pointer;
+}
+.black {
+    width: 20%;
+    height: 2.6em;
+    border-radius: 50px;
+    font-weight: normal;
+    font-size: 20px;
+    border: 2px solid black;
+    &:hover {
+        box-shadow: 6px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+}
