@@ -2,7 +2,7 @@ import { Component, Prop, h } from '@stencil/core';
 
 @Component({
     tag: 'secondary-button',
-    styleUrl: 'secondary-button.scss',
+    styleUrl: 'secondary-button.css',
     shadow: true,
 })
 export class SecondaryButton {

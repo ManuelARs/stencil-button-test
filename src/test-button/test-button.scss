@@ -22,11 +22,11 @@ button {
     }
 
     &:disabled {
-        color: $neutral_color_4;
+        color: grey;
     }
 
     &:disabled:after {
-        background: $neutral_color_4;
+        background: grey;
     }
 
     &.hover:after,
